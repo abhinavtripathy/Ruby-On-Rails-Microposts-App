@@ -91,6 +91,8 @@ label {
 //   overflow: hidden;
 // }
 
+// Fading Colors and Background Effects
+
 ::selection {
   background-color: #9771e3;
   color: #ffdf79;
@@ -107,6 +109,7 @@ body.fade {
   transition: none;
 }
 
+// Switch of Body Colors
 body {
   background: linear-gradient(316deg, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   background-size: 600% 600%;
@@ -178,6 +181,8 @@ h1, h2 {
   color: black;
   transition: 0.2s ease;
 }
+
+// Multi Device/ Multi Screen optimization 
 
 @media(max-width: 768px) {
   h1 {
