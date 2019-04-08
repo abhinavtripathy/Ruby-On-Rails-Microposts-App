@@ -21,6 +21,7 @@ class MicropostsController < ApplicationController
   def edit
   end
 
+  
   # POST /microposts
   # POST /microposts.json
   def create

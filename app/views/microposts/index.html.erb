@@ -10,7 +10,8 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
+  sql = "Select * from ... your sql query here"
+  records_array = ActiveRecord::Base.connection.execute(sql)
   <tbody>
     <% @microposts.each do |micropost| %>
       <tr>
